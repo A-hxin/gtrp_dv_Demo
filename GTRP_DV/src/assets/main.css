@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #00bd7e;
+}
+
+#background {
+    background-image: url('../assets/bg01.png');
+    /*background-color: #5e91ff;*/
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /*display: flex; justify-content: center;*/   /*剧中*/
+    align-items: center;
+}
+
+
+
+.ox1{
+    color: #f98703;
+}
+
+.setFontSiza{
+
+}
+
+
+.minBox {
+    width: 98%;
+    height: 88vh;
+    margin: 0 auto;
+/*padding: 0 15px;*/
+/*background-color: rgba(255, 255, 255, 0.07); !* 毛玻璃效果颜色 *!*/
+/*backdrop-filter: blur(10px); !* 毛玻璃效果 *!*/
+    text-align: center;
+/*border-radius: 20px; !* 设置圆角 *!*/
+/*box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); !* 设置阴影 *!*/
+}
+
+.mBox {
+//border: 1px solid orange;
+    margin-top: 0.5rem;
+    height: 30vh;
+    background-color: rgba(255, 255, 255, 0.4); /* 毛玻璃效果颜色 */
+    backdrop-filter: blur(10px); /* 毛玻璃效果 */
+    border-radius: 20px; /* 设置圆角 */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.09); /* 设置阴影 */
+}
+
+.mBox:hover {
+    box-shadow: 0 0 20px rgba(220, 103, 255, 0.36);
+}
+
+/*客户*/
+.userBox {
+    height: 14.5vh;
+}
+
+.userData{
+    height: 9.4vh;
+}
+
+.ex5{
+    height: 27vh;
+}
+
+

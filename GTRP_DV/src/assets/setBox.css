@@ -1,0 +1,130 @@
+/*设置表大小*/
+.tx1{
+    /*当前库存*/
+
+    /*width:300px;*/
+    height:36vh;
+}
+.tx2{
+    /*用户行为*/
+    margin-top: 10px;
+    height:22vh;
+}
+
+/*客户满意度*/
+.ox1{
+    font-size: 3rem;
+    text-align: left;
+    margin-left: 4rem;
+    font-weight: bold;
+}
+.ox1 span{
+    font-size: 1.5rem;
+    color: #29b268;
+    font-weight: normal;
+}
+
+
+/*畅销产品*/
+.bestsellers-list {
+    font-size: 1.5rem;
+    /*margin: 1rem;*/
+}
+
+.bestseller-item {
+    /*margin-bottom: 0.5rem;*/
+    text-align: left;
+    margin-left: 2rem;
+}
+
+.bestseller-item strong {
+    color: #ff6600;
+}
+
+/*常用支付方式*/
+.ox3{
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 2rem;
+    color: #ff6600;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/*评价与反馈*/
+.tx4{
+    font-size: 1rem;
+}
+
+/*当月销售额、环比变化、同比变化、访问量、下单量、复购率*/
+.tx5{
+    font-size: 1.5rem;
+    color: #ff6600;
+    font-weight: bold;
+}
+
+.tx6{
+    font-size: 1.3rem;
+    text-align: left;
+    margin-left: 5rem;
+    color: #ff6600;
+    font-weight: bold;
+
+}
+.tx6 span{
+    font-size: 1rem;
+    color: #29b268;
+}
+
+.tx7{
+    margin-left: 2rem;
+}
+
+
+/*客户分类(RFM分析)*/
+.tx8{
+    height:21vh;
+}
+
+
+/*销售渠道分析*/
+.tx9{
+    /*width: 300px;*/
+    height: 20vh;
+    .flex {
+        display: flex;
+    }
+
+    .flex-col {
+        flex-direction: column;
+    }
+
+    .justify-center {
+        justify-content: center;
+    }
+
+    .items-center {
+        align-items: center;
+    }
+
+}
+
+/*各类销售额*/
+.tx10{
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*height: 20vh;*/
+}
+
+/*成交订单*/
+.tx11{
+    height: 21vh;
+}
+
+/*周销售额*/
+.tx12{
+    height: 21vh;
+}
+
